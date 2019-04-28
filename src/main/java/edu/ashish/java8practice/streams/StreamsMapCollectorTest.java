@@ -18,12 +18,12 @@ public class StreamsMapCollectorTest {
 
     // Collectors.toMap() should only be used when there are no duplicate keys,
     // else IllegalStateException will come stating Duplicate Key Present.
-    /*public void testGroupByDepartmentId() {
+    public void testGroupByDepartmentId() {
 
         Map<Department, Employee> map = employeeList.stream()
                 .collect(Collectors.toMap(Employee::getDepartment, Function.identity()));
         System.out.println("Max salary: " + map);
-    }*/
+    }
 
     public void testGroupByDepartmentIdv2() {
 
@@ -36,7 +36,7 @@ public class StreamsMapCollectorTest {
     public static void main(String[] args) {
 
         StreamsMapCollectorTest test = new StreamsMapCollectorTest();
-//        test.testGroupByDepartmentId();
+        test.testGroupByDepartmentId();
         test.testGroupByDepartmentIdv2();
     }
 
