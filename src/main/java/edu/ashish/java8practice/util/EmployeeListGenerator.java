@@ -16,8 +16,8 @@ public class EmployeeListGenerator {
         Employee emp2 = new Employee("Tim", 25000, new Department("1", "IT"));
         Employee emp3 = new Employee("Vince", 10000, new Department("2", "Finance"));
         Employee emp4 = new Employee("Ankit", 30000, new Department("3", "Management"));
-        Employee emp5 = new Employee("Divya", 20000, new Department("1", "Finance"));
-        Employee emp6 = new Employee("Jamie", 5000, new Department("1", "Security"));
+        Employee emp5 = new Employee("Divya", 20000, new Department("2", "Finance"));
+        Employee emp6 = new Employee("Jamie", 5000, new Department("4", "Security"));
         Employee emp7 = new Employee("John", 22000, new Department("1", "IT"));
 
         employeeList.add(emp1);
