@@ -12,7 +12,7 @@ public class TestBiConsumer {
 
     public static void main(String[] args) {
 
-        // Consumer takes an argument but doesn't return anything back.
+        // BiConsumer<T,U> takes two arguments of types <T> and <U> but doesn't return anything back.
 
         System.out.println("BiConsumer with Simple Datatype");
         BiConsumer<String, String> biConsumer = (fName, lName) -> System.out.println("Hello " + fName + " " + lName);

@@ -6,7 +6,7 @@ public class TestPredicate {
 
     public static void main(String[] args) {
 
-        // Predicate takes one parameter and returns boolean
+        // Predicate<T> takes one parameter of type T and returns boolean
 
         System.out.println("String Predicate");
         Predicate<String> stringPredicate = s -> s.contains("ish");

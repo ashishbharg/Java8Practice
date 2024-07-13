@@ -8,7 +8,7 @@ public class TestConsumer{
 
     public static void main(String[] args) {
 
-        // Consumer takes an argument but doesn't return anything back.
+        // Consumer<T> takes an argument of type T but doesn't return anything back.
         Consumer<String> consumer = s -> System.out.println("Hello " + s);
         consumer.accept("Ash");
 

@@ -8,7 +8,7 @@ public class TestSupplier {
 
     public static void main(String[] args) {
 
-        // Supplier is a functional interface which takes no arguments but return the type that is declared.
+        // Supplier<T> is a functional interface which takes no arguments but return the type <T> that is declared.
         System.out.println("String Builder Supplier");
         Supplier<StringBuilder> supplier = () -> new StringBuilder();
         System.out.println(supplier.get().append("Hello ").append("Ashish"));
