@@ -3,12 +3,10 @@ package edu.ashish.java8practice.functionalinterfaces;
 import edu.ashish.java8practice.model.Employee;
 import edu.ashish.java8practice.util.EmployeeListGenerator;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.BiConsumer;
-import java.util.function.Consumer;
 
 public class TestBiConsumer {
 
